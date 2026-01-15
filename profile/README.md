@@ -1,0 +1,1 @@
+z-base is a future-proof, zero-knowledge, self-deployable on Cloudflare Workers distributed backup, synchronization, and networking gateway for real-time applications, where privacy is the default, not an add-on.
