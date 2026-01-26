@@ -62,5 +62,5 @@ If your primary goal is maximizing profit through surveillance, data brokerage, 
 If you still want to monetize data, consider doing so transparently and consensually—by offering to  
 purchase clearly defined data sets directly from users, under terms they understand and control.
 
-This is infrastructure for a web that serves people first.
+This is architecture for a web that serves people first.
 
