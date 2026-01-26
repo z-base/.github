@@ -1,64 +1,57 @@
 ## Core Value Propositions
 
-### For service providers
+### For service providers  
+z-base is being designed to reduce legal and operational risk by eliminating the need to process, inspect, or store user data.  
+You will be able to operate infrastructure without handling user content.
 
-z-base reduces liability by eliminating the need to process, inspect, or manage users’ personal or organizational data.  
-You run infrastructure, not people’s private lives.
+### For end users  
+z-base will provide communication and data features without surveillance, profiling, or hidden extraction.  
+User data will remain private, local-first, and cryptographically controlled by the user.
 
-### For end users
+### For platform builders  
+z-base is being built to remove the requirement to act as a data custodian.  
+You will provide coordination and services, not user dossiers.
 
-Users get powerful communication and information features without surveillance, profiling, or hidden data extraction.  
-Their data remains private, local-first, and under their control.
+### For developers  
+The system will map cleanly to real-time object synchronization and evented state patterns.  
+The API will be intentionally small, semantically strict, and deterministic.
 
-### For platform builders
-
-z-base removes the ethically compromised role of becoming a custodian of millions of users’ daily activities.  
-You provide services, not dossiers.
-
-### For developers
-
-The model maps cleanly to familiar real-time object storage and synchronization patterns.  
-The API surface is intentionally small, semantically consistent, and well documented, making implementation straightforward.
-
-### For vibe coders
-
-With the z-base SDK, you don’t need a separate backend data layer to configure or maintain.  
-You can verify what the app does by using the product, while infrastructure only stores and relays encrypted bytes.  
-This avoids backend surprise work and keeps cost and liability predictable during fast, AI-driven iteration.
+### For vibe coders 
+With the z-base, you will not need to design or maintain a backend application database.  
+The infrastructure will store and relay only encrypted envelopes, while logic and authority live in the client.  
+This is intended to remove backend surprise work and keep cost and liability predictable during fast iteration.
 
 ---
 
-## Where to Use z-base
+## Where z-base Will Be Used
 
-Use z-base as the **user or organization data layer** of your application.
+z-base is being built to function as the **user or organization state layer** of an application.
 
-It is well suited for:
-- user-generated or organization-generated content,
-- personal or collaborative data,
-- state that should morally and practically be owned by its creator,
-- systems where privacy, offline access, and peer verification matter.
+It will be well suited for:
+- user-generated or organization-generated data  
+- collaborative or personal state  
+- data that should be owned by its creator  
+- systems requiring privacy, offline access, and peer verification  
 
-In short: use z-base wherever user data should remain under user control.
-
----
-
-## Where *Not* to Use z-base
-
-Do **not** use z-base when:
-- scheduled or unattended automation must modify data without user presence,
-- third-party systems need unrestricted access to plaintext data,
-- public discovery or indexing of content is a core requirement.
-
-In these cases, use **separate, purpose-built databases** for automation, analytics, or public content.
-
-If automation is required, design it ethically:
-- request **explicit, verifiable permission** from the user,
-- limit access to a **narrow data scope**,
-- enforce a **bounded time window**,
-- state a **specific purpose** aligned with your service terms,
-- make all data exposure visible and measurable in the UI.
+In short: z-base is intended for systems where **the user remains the authority**.
 
 ---
+
+## Where z-base Will Not Be Suitable
+
+z-base is not intended for cases where:
+- unattended automation must modify state  
+- third parties require plaintext access  
+- public indexing or content discovery is a core requirement  
+
+In those cases, separate, purpose-built databases will still be required for automation, analytics, or public content.
+
+If automation is required, design it ethically:  
+• request explicit, verifiable permission from the user,  
+• limit access to a narrow data scope,  
+• enforce a bounded time window,  
+• state a specific purpose aligned with your service terms,  
+• make all data exposure visible and measurable in the UI.
 
 ## Philosophy
 
@@ -67,6 +60,7 @@ z-base exists to make it easy to build ethical services.
 If your primary goal is maximizing profit through surveillance, data brokerage, or opaque advertising ecosystems, z-base is probably not a fit.
 
 If you still want to monetize data, consider doing so transparently and consensually—by offering to  
-**purchase clearly defined data sets directly from users**, under terms they understand and control.
+purchase clearly defined data sets directly from users, under terms they understand and control.
 
 This is infrastructure for a web that serves people first.
+
