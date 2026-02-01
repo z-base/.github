@@ -1,5 +1,9 @@
+
+
 **[Digital-Sovereignty-Enabling Architecture Overview](https://www.jortsupetterson.workers.dev/)**
 
+NOTE: **The architecture does not attempt to eliminate observation.
+It eliminates the value of observation.**
 
 ## Core Value Propositions
 
