@@ -9,7 +9,8 @@ Horizontally, you can add as many Service Providers as needed.
 Vertically, you can add as many Service Clients as needed.**
 
 **[Digital-Sovereignty-Enabling Architecture Overview](https://www.jortsupetterson.workers.dev/)**
-**[Digital-Sovereignty-Enabling Architecture Rationale](https://github.com/z-base/z-base/blob/main/docs/neutral_diagram/rationale.md)
+
+**[Digital-Sovereignty-Enabling Architecture Rationale](https://github.com/z-base/z-base/blob/main/docs/neutral_diagram/rationale.md)**
 
 ## Core Value Propositions
 
