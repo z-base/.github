@@ -1,9 +1,11 @@
 
+<img src="https://github.com/z-base/z-base/blob/main/docs/neutral_diagram/digital-sovereignty-enabling_architecture_diagram.drawio.png" alt="Digital-Sovereignty-Enabling Architecture Diagram" />
+
+NOTE: **This architecture does not attempt to eliminate observation.
+It eliminates the value of observation.**
 
 **[Digital-Sovereignty-Enabling Architecture Overview](https://www.jortsupetterson.workers.dev/)**
-
-NOTE: **The architecture does not attempt to eliminate observation.
-It eliminates the value of observation.**
+**[Digital-Sovereignty-Enabling Architecture Rationale](https://github.com/z-base/z-base/blob/main/docs/neutral_diagram/rationale.md)
 
 ## Core Value Propositions
 
