@@ -4,13 +4,15 @@
 NOTE: **This architecture does not attempt to eliminate observation.
 It eliminates the value of observation.**
 
-NOTE 2: **The diagram scales both horizontally and vertically.
-Horizontally, you can add as many Service Providers as needed.
-Vertically, you can add as many Service Clients as needed.**
-
 **[Digital-Sovereignty-Enabling Architecture Overview](https://www.jortsupetterson.workers.dev/)**
 
 **[Digital-Sovereignty-Enabling Architecture Rationale](https://github.com/z-base/z-base/blob/main/docs/neutral_diagram/rationale.md)**
+
+<img src="https://github.com/z-base/z-base/blob/main/docs/TOP_LEVEL_LABELING.png" alt="Digital-Sovereignty-Enabling Architecture top-level labels" />
+
+NOTE: **The diagram scales both horizontally and vertically.
+Horizontally, you can add as many Service Providers as needed.
+Vertically, you can add as many Service Clients as needed.**
 
 ## Core Value Propositions
 
