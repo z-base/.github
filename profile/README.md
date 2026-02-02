@@ -6,7 +6,7 @@ It eliminates the value of observation.**
 
 **[Digital-Sovereignty-Enabling Architecture Overview](https://www.jortsupetterson.workers.dev/)**
 
-**[Digital-Sovereignty-Enabling Architecture Rationale](https://github.com/z-base/z-base/blob/main/docs/neutral_diagram/rationale.md)**
+**[Rationalizing Why Digital-Sovereignty-Enabling Architecture Needs This Structure](https://github.com/z-base/z-base/blob/main/docs/neutral_diagram/rationale.md)**
 
 **[Long and Awkward Walkthrough on Digital-Sovereignty-Enabling System Architecture](https://www.youtube.com/watch?v=GIFVetIC8X0)**
 
