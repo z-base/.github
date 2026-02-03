@@ -16,6 +16,8 @@ NOTE: **The diagram scales both horizontally and vertically.
 Horizontally, you can add as many Service Providers as needed.
 Vertically, you can add as many Service Clients as needed.**
 
+SOLVES: **What you actually want is a space where the ability to verify yourself to others is not coupled with private data across services.**
+
 ## Core Value Propositions
 
 ### For service providers  
