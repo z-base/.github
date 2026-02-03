@@ -1,4 +1,6 @@
 
+**Keeps current discovery and transport model, and instead gives you what you actually want a space where the ability to verify yourself to others is not coupled with private data across services.**
+
 <img src="https://github.com/z-base/z-base/blob/main/docs/neutral_diagram/digital-sovereignty-enabling_architecture_diagram.drawio.png" alt="Digital-Sovereignty-Enabling Architecture Diagram" />
 
 NOTE: **This architecture does not attempt to eliminate observation.
@@ -15,8 +17,6 @@ It eliminates the value of observation.**
 NOTE: **The diagram scales both horizontally and vertically.
 Horizontally, you can add as many Service Providers as needed.
 Vertically, you can add as many Service Clients as needed.**
-
-SOLVES: **What you actually want is a space where the ability to verify yourself to others is not coupled with private data across services.**
 
 ## Core Value Propositions
 
