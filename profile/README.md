@@ -1,5 +1,5 @@
 
-**Keeps current discovery and transport model, and instead gives you what you actually want a space where the ability to verify yourself to others is not coupled with private data across services.**
+**Keeps current discovery and transport model, and instead gives you what you actually want: a space where the ability to verify yourself to others is not coupled with private data across services.**
 
 <img src="https://github.com/z-base/z-base/blob/main/docs/neutral_diagram/digital-sovereignty-enabling_architecture_diagram.drawio.png" alt="Digital-Sovereignty-Enabling Architecture Diagram" />
 
