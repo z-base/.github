@@ -17,7 +17,7 @@ and coordination emerges from verifiable claims, ignorant of network location.
 The constraint is not how bytes are stored and moved.
 The constraint is where meaning is allowed to form.
 
-In my project **z-base**
+In my project **z-base**,
 I keep the existing discovery and transport stack.
 I let DNS, HTTPS, CDNs, and relays do what they are good at: moving encrypted blobs.
 
