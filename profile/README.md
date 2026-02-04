@@ -1,5 +1,5 @@
-A decentralized web is not achieved by changing how we store and move bytes.
-It is achieved by changing where authority is allowed to exist.
+**A decentralized web is not achieved by changing how we store and move bytes.
+It is achieved by changing where authority is allowed to exist.**
 
 Treating DNS, HTTPS, or other discovery models and transport protocols as the root problem is a category error.
 
