@@ -1,12 +1,46 @@
-**Decentralization is achieved when every end-user device is treated as an Actor in a distributed system, and coordination emerges from cryptographic truth rather than network location.**
+A decentralized web is not achieved by changing how we store and move bytes.
+It is achieved by changing where authority is allowed to exist.
 
-It is a category error to treat DNS, HTTPS, and existing discovery or transport systems as the problem.
+Treating DNS, HTTPS, or other discovery models and transport protocols as the root problem is a category error.
+They move symbols.
+They do not define meaning, ownership, or truth.
 
-The real constraint is not how bytes move, but where meaning and authority are allowed to exist.
+The real failure of Web2 is that identity, data, validation, and policy are bound to the same service boundary.
+Who you are, what exists, and what is true are all decided by whoever runs the server.
 
-This is why you should instead ensure that state only emerges where it is supposed to, and then take full advantage of the existing Web2 infrastructure.
+This is the architectural sin.
 
-That is why z-base will keep the current discovery and transport model, and instead provides what you actually want: **a space where the ability to verify yourself to others is not coupled to private data across services, nor is the potential for existence and discovery of that private data coupled to the existence of any single service.**
+True decentralization begins when every device is an Actor,
+a cryptographic authority over its own state,
+and coordination emerges from verifiable claims, ignorant of network location.
+
+The constraint is not how bytes are stored and moved.
+The constraint is where meaning is allowed to form.
+
+In my project **z-base**
+I keep the existing discovery and transport stack.
+I let DNS, HTTPS, CDNs, and relays do what they are good at: moving encrypted blobs.
+
+And relocate the only thing that matters:
+
+Truth, identity, and authorization live exclusively in the Actor layer.
+
+Our system therefore decouples:
+
+- identity from storage
+- existence from service operators
+- verification from data disclosure
+- discovery from control
+
+No service owns your identity.
+No server defines your reality.
+No transport layer grants authority.
+
+Instead, they:
+
+- Host identity you control
+- Store encrypted potential for your digital reality to be formed
+- Blindly relay intentions between peers, which peers verify themselves
 
 <img src="https://github.com/z-base/z-base/blob/main/docs/neutral_diagram/digital-sovereignty-enabling_architecture_diagram.drawio.png" alt="Digital-Sovereignty-Enabling Architecture Diagram" />
 
