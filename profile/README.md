@@ -1,55 +1,38 @@
 A decentralized web is not achieved by changing how we store and move bytes.
-
 It is achieved by changing where authority is allowed to exist.
 
 Treating DNS, HTTPS, or other discovery models and transport protocols as the root problem is a category error.
 
-They move symbols.
-
-They do not define meaning, ownership, or truth.
+They move symbols. They do not define meaning, ownership, or truth.
 
 
 The real failure of Web2 is that identity, data, validation, and policy are bound to the same service boundary.
-
-Who you are, what exists, and what is true are all decided by whoever runs the server.
-
-
-This is the architectural sin.
-
+Who you are, what exists, and what is true are all decided by whoever runs the server. This is the architectural sin.
 
 True decentralization begins when every end-user device is an Actor,
-
 a cryptographic authority over its own state,
-
 and coordination emerges from verifiable claims, ignorant of network location.
 
 The constraint is not how bytes are stored and moved.
-
 The constraint is where meaning is allowed to form.
 
 In my project **z-base**,
-
 I will keep the existing discovery and transport stack.
-
 I will let DNS, HTTPS, CDNs, and relays do what they are good at: moving encrypted blobs.
 
 
 And I will relocate the only thing that matters:
 
-
 Truth, identity, and authorization live exclusively in the Actor layer.
 
 My system therefore decouples:
-
 - identity from storage
 - existence from service operators
 - verification from data disclosure
 - discovery from control
 
 No service owns your identity.
-
 No server defines your reality.
-
 No transport layer grants authority.
 
 Instead, it will:
