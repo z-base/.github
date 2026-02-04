@@ -1,5 +1,12 @@
+**Decentralization is achieved when every end-user device is treated as an Actor in a distributed system, and coordination emerges from cryptographic truth rather than network location.**
 
-**Keeps current discovery and transport model, and instead gives you what you actually want: a space where the ability to verify yourself to others is not coupled with private data across services.**
+It is a category error to treat DNS, HTTPS, and existing discovery or transport systems as the problem.
+
+The real constraint is not how bytes move, but where meaning and authority are allowed to exist.
+
+This is why you should instead ensure that state only emerges where it is supposed to, and then take full advantage of the existing Web2 infrastructure.
+
+That is why z-base will keep the current discovery and transport model, and instead provides what you actually want: **a space where the ability to verify yourself to others is not coupled to private data across services, nor is the potential for existence and discovery of that private data coupled to the existence of any single service.**
 
 <img src="https://github.com/z-base/z-base/blob/main/docs/neutral_diagram/digital-sovereignty-enabling_architecture_diagram.drawio.png" alt="Digital-Sovereignty-Enabling Architecture Diagram" />
 
