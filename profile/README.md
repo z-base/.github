@@ -10,7 +10,7 @@ Who you are, what exists, and what is true are all decided by whoever runs the s
 
 This is the architectural sin.
 
-True decentralization begins when every device is an Actor,
+True decentralization begins when every end-user device is an Actor,
 a cryptographic authority over its own state,
 and coordination emerges from verifiable claims, ignorant of network location.
 
