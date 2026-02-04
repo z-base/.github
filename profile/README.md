@@ -25,7 +25,7 @@ And relocate the only thing that matters:
 
 Truth, identity, and authorization live exclusively in the Actor layer.
 
-Our system therefore decouples:
+My system therefore decouples:
 
 - identity from storage
 - existence from service operators
