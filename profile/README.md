@@ -2,14 +2,14 @@
 
 ## A coordination layer for interoperable resources
 
-A decentralized web is not achieved by changing how we store or move bytes.
+A decentralized web is not achieved by changing how we store or move bytes.  
 It is achieved by changing **where authority is allowed to exist**.
 
-DNS, HTTPS, CDNs, and transports are fine.
-They move encrypted blobs and locate endpoints.
+DNS, HTTPS, CDNs, and transports are fine.  
+They move encrypted blobs and locate endpoints.  
 They do not define meaning, ownership, or truth.
 
-Web2’s failure is that **identity, data, validation, and policy are bound to the same service boundary**.
+Web2’s failure is that **identity, data, validation, and policy are bound to the same service boundary**.  
 Who you are, what exists, and what is true are decided by whoever runs the server.
 
 z-base is an attempt to invert that.
@@ -24,84 +24,173 @@ z-base is an attempt to invert that.
 
 <img src="https://github.com/z-base/z-base/blob/main/docs/neutral_diagram/digital-sovereignty-enabling_architecture_diagram.drawio.png" alt="Digital-Sovereignty-Enabling Architecture Diagram" />
 
-NOTE: **This architecture does not attempt to eliminate observation.
-It eliminates the value of observation.**
+**PRIVACY NOTE:** This architecture does not attempt to eliminate surveillance.  
+It limits the **scope** and **value** of surveillance.
 
-**[Digital-Sovereignty-Enabling Architecture Overview](https://www.jortsupetterson.workers.dev/)**
-
-**[Rationalizing Why Digital-Sovereignty-Enabling Architecture Needs This Structure](https://github.com/z-base/z-base/blob/main/docs/neutral_diagram/rationale.md)**
-
-**[Long and Awkward Walkthrough on Digital-Sovereignty-Enabling System Architecture](https://www.youtube.com/watch?v=GIFVetIC8X0)**
+**Read more**
+- **[Digital-Sovereignty-Enabling Architecture Overview](https://www.jortsupetterson.workers.dev/)**
+- **[Rationale](https://github.com/z-base/z-base/blob/main/docs/neutral_diagram/rationale.md)**
+- **[Walkthrough (long, awkward, honest)](https://www.youtube.com/watch?v=GIFVetIC8X0)**
 
 <img src="https://github.com/z-base/z-base/blob/main/docs/TOP_LEVEL_LABELING.png" alt="Digital-Sovereignty-Enabling Architecture top-level labels" />
 
-NOTE: **The diagram scales both horizontally and vertically.
-Horizontally, you can add as many Service Providers as needed.
-Vertically, you can add as many Service Clients as needed.**
-
-## Core Value Propositions
-
-### For service providers  
-z-base is being designed to reduce legal and operational risk by eliminating the need to process, inspect, or store user data.  
-You will be able to operate infrastructure without handling user content.
-
-### For end users  
-z-base will provide communication and data features without surveillance, profiling, or hidden extraction.  
-User data will remain private, local-first, and cryptographically controlled by the user.
-
-### For platform builders  
-z-base is being built to remove the requirement to act as a data custodian.  
-You will provide coordination and services, not user dossiers.
-
-### For developers  
-The system will map cleanly to real-time object synchronization and evented state patterns.  
-The API will be intentionally small, semantically strict, and deterministic.
-
-### For vibe coders 
-With the z-base, you will not need to design or maintain a backend application database.  
-The infrastructure will store and relay only encrypted envelopes, while logic and authority live in the client.  
-This is intended to remove backend surprise work and keep cost and liability predictable during fast iteration.
+**SCALABILITY NOTE:** The diagram scales both horizontally and vertically.  
+Horizontally: add as many **Service Providers** as needed.  
+Vertically: add as many **Service Clients** as needed.
 
 ---
 
-## Where z-base Will Be Used
+## What z-base is building
 
-z-base is being built to function as the **user or organization state layer** of an application.
+### 1) Interoperable resources (not “apps”)
 
-It will be well suited for:
-- user-generated or organization-generated data  
-- collaborative or personal state  
-- data that should be owned by its creator  
-- systems requiring privacy, offline access, and peer verification  
+z-base is about **portable resources**: media, documents, identities, credentials, objects—and anything else that can be expressed as a shared, verifiable model.
 
-In short: z-base is intended for systems where **the user remains the authority**.
+The point is not “a decentralized app”.  
+The point is **a decentralized _resource format + semantics_**, so many competing clients can render, edit, and verify the same thing.
+
+Think:
+- a video format + many players
+- a document format + many editors
+- a shared object model + many viewers
+
+Clients compete on UX.  
+Formats guarantee portability and interoperability.
+
+### 2) Real-time coordination across origins
+
+Resources should sync in real time, offline-first, peer-to-peer when possible, and service-assisted when needed.
+
+The service layer is not “the truth”.  
+It’s routing, relays, indexing, hosting, availability, backups, and coordination.
+
+**Authority stays with the Actor.**
+
+### 3) Private *and* public resources
+
+z-base is designed to support both:
+- **private resources** (E2EE, local-first, selective disclosure, peer verification)
+- **public resources** (publishable, cacheable, replicable, indexable—without turning platforms into identity owners)
+
+
+### 4) Automation as a service model (not a custody model)
+
+Automation is real. But “automation” must not imply “the platform owns your state”.
+
+If automation needs access:
+- it must be explicitly authorized by the Actor
+- scoped to a narrow purpose and dataset
+- time-bounded
+- auditable and measurable in the UI
+- revocable without collapsing your existence
+
+Delegation without dependence.
 
 ---
 
-## Where z-base Will Not Be Suitable
+## What z-base refuses to be
 
-z-base is not intended for cases where:
-- unattended automation must modify state  
-- third parties require plaintext access  
-- public indexing or content discovery is a core requirement  
+z-base does not:
+- own your identity
+- define your reality
+- grant authority for your intentions
+- require that a provider is “trusted” to be correct
 
-In those cases, separate, purpose-built databases will still be required for automation, analytics, or public content.
+z-base does:
+- host resources you control (as a service, not as a throne)
+- store and relay encrypted envelopes without needing plaintext
+- enable peers to verify claims locally
+- keep resources portable so provider shutdown is a business event, not an existential event
 
-If automation is required, design it ethically:  
-• request explicit, verifiable permission from the user,  
-• limit access to a narrow data scope,  
-• enforce a bounded time window,  
-• state a specific purpose aligned with your service terms,  
-• make all data exposure visible and measurable in the UI.
+A provider has no inherent right to own your data or identity.  
+A provider has no inherent obligation to host you forever.
 
-## Philosophy
+Those statements do not conflict when the system is portable.
 
-z-base exists to make it easy to build ethical services.
+---
 
-If your primary goal is maximizing profit through surveillance, data brokerage, or opaque advertising ecosystems, z-base is probably not a fit.
+## Who this is for
 
-If you still want to monetize data, consider doing so transparently and consensually—by offering to  
-purchase clearly defined data sets directly from users, under terms they understand and control.
+### End users
+- privacy without surveillance economics
+- local-first state
+- real exit: migrate without begging
 
-This is architecture for a web that serves people first.
+### Service providers
+- lower liability: operate infrastructure without handling sensitive user data
+- better competition: users can migrate from a competitor without normalization headaches
+- predictable costs: store/relay envelopes, not dossiers
 
+### Platform builders
+- build services, not prisons
+- competition shifts to experience, not captivity
+
+### Developers (and vibe coders)
+- no surprise backend database work
+- small, deterministic APIs
+- sync + events patterns that map to real apps
+
+---
+
+## Where it fits (and where it doesn’t)
+
+Fits:
+- user/organization state layers
+- collaborative and personal resources
+- anything needing offline + sync + verification
+- systems where the user must remain the authority
+
+Doesn’t fit (by itself):
+- unattended automation that must mutate state without user authorization
+- systems that require third-party plaintext by default
+- purely public discovery/search as the primary feature (use a purpose-built index)
+
+z-base is a foundation. You can add specialized services without re-centralizing authority.
+
+---
+
+## Building blocks
+
+z-base is being built from the bottom up as two layers that evolve together:
+
+### 1) JS runtime-agnostic libraries + implementation-agnostic specs
+We start by writing **JS runtime-agnostic (but ESM-format-specific) JS/TS libraries** alongside **implementation-agnostic specifications**.
+
+The specs focus on execution-level structure:
+- data ontologies and semantics
+- topologies and coordination models
+- object handling, processing, and verification rules
+- deterministic behavior and portability constraints
+
+The goal is that multiple independent implementations can exist without divergence in meaning.
+
+### 2) Pragmatic infrastructure first, then expand
+For transport and storage we start with what is already widely deployable:
+- **Browser APIs**
+- **Cloudflare** (as an initial service substrate)
+
+Then we expand to additional runtimes, environments, and platforms as the model stabilizes:
+- wider JS runtime support
+- native and Wasm support
+- other providers and deployment targets
+
+The priority is correctness of meaning and verification first; the hosting substrate is replaceable.
+
+---
+
+## The invitation
+
+z-base is not trying to build *the* app.  
+It’s trying to make it obvious how to build **many** apps—viewers, editors, platforms, and services—around shared resources without reintroducing captivity.
+
+If the web is going to serve people first, it needs to serve developers first: enabling competition on UX/UI **without** becoming data custodians, through simple, familiar APIs.
+
+That’s the bet.
+
+---
+
+## Status
+
+Early-stage, recursive specify<->implement iteration.
+
+If you like crdts, portable formats, verifiable claims, e2ee, real-time coordination, and sovereignty-by-design, welcome!
