@@ -26,6 +26,7 @@ z-base is an attempt to invert that.
 It limits the **scope** and **value** of surveillance.
 
 **Read more**
+- **[What Makes z-base Unique](https://github.com/z-base/z-base/blob/main/docs/WHY_Z-BASE_IS_DIFFERENT.md)**
 - **[Digital-Sovereignty-Enabling Architecture Overview](https://www.jortsupetterson.workers.dev/)**
 - **[Rationalizing Why Digital-Sovereignty-Enabling Architecture Needs This Structure](https://github.com/z-base/z-base/blob/main/docs/neutral_diagram/rationale.md)**
 - **[Long and Awkward Walkthrough on Digital-Sovereignty-Enabling System Architecture](https://www.youtube.com/watch?v=GIFVetIC8X0)**
