@@ -190,4 +190,4 @@ That’s the bet.
 
 Early-stage, recursive specify<->implement iteration.
 
-If you like CRDTs, portable formats, verifiable claims, E2EE, real-time coordination, and sovereignty-by-design, welcome.
+If you like CRDTs, portable formats, verifiable claims, E2EE, real-time coordination, and sovereignty-by-design... welcome!
