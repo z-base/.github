@@ -1,3 +1,5 @@
+![z-base Banner](https://img.shields.io/badge/z--base-digital--sovereignty--enabling%20internet-000000?style=for-the-badge)
+
 ## A coordination layer for interoperable user-sovereign resources
 
 A decentralized web is not achieved by changing how we store or move bytes.  
