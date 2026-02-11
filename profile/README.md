@@ -3,7 +3,7 @@
 ## A coordination layer for interoperable resources
 
 A decentralized web is not achieved by changing how we store or move bytes.  
-It is achieved by changing **where authority is allowed to exist**.
+It is achieved by **standardizing semantics** and changing **where authority is allowed to exist**.
 
 DNS, HTTPS, CDNs, and transports are fine.  
 They move encrypted blobs and locate endpoints.  
@@ -18,7 +18,7 @@ z-base is an attempt to invert that.
 
 ## The idea in one sentence
 
-**Treat every device as an Actor (a cryptographic authority over its own state), and let coordination emerge from verifiable claims over interoperable resources—independent of network location or service operators.**
+**Treat every user-agent as an Actor in a distributed system (a cryptographic authority over its own state), supported by servers as Base Stations (standardized resource support servers run by service providers, used for storage, relay, backup, and cross-origin coordination), and let coordination emerge from verifiable claims over interoperable resources—independent of network location or service operators.**
 
 ---
 
@@ -71,7 +71,6 @@ It’s routing, relays, indexing, hosting, availability, backups, and coordinati
 z-base is designed to support both:
 - **private resources** (E2EE, local-first, selective disclosure, peer verification)
 - **public resources** (publishable, cacheable, replicable, indexable—without turning platforms into identity owners)
-
 
 ### 4) Automation as a service model (not a custody model)
 
@@ -193,4 +192,4 @@ That’s the bet.
 
 Early-stage, recursive specify<->implement iteration.
 
-If you like crdts, portable formats, verifiable claims, e2ee, real-time coordination, and sovereignty-by-design, welcome!
+If you like CRDTs, portable formats, verifiable claims, E2EE, real-time coordination, and sovereignty-by-design, welcome.
