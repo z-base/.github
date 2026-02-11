@@ -1,6 +1,4 @@
-# z-base
-
-## A coordination layer for interoperable resources
+## A coordination layer for interoperable user-sovereign resources
 
 A decentralized web is not achieved by changing how we store or move bytes.  
 It is achieved by **standardizing semantics** and changing **where authority is allowed to exist**.
