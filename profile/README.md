@@ -162,6 +162,21 @@ The priority is correctness of meaning and verification first; the hosting subst
 
 ---
 
+## Licensing
+
+Everything produced by the Sovereignbase project is released under the **Apache License 2.0**.
+
+This includes:
+- Code
+- Images
+- Tooling
+- Packages
+- Specifications
+
+The goal is to keep the ecosystem fully open and usable in both open-source and commercial environments.
+
+---
+
 ## The invitation
 
 Sovereignbase is not trying to build *the* app.  
